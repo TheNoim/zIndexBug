@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
-import AnimatedList from './AnimatedList';
+import { StyleSheet, Text, View, ScrollView, FlatList } from 'react-native';
+//import AnimatedList from './AnimatedList';
 import FullscreenCard from './FullscreenCard';
 import {CardTitle, CardContent} from 'react-native-material-cards';
 
@@ -34,8 +34,9 @@ export default class App extends React.Component {
     return (
       <ScrollView style={styles.list}>
         <Text>Test</Text>
-        <AnimatedList style={styles.list} renderItem={this._render.bind(this)} data={this.data} keyExtractor={i => i} inAnimation={'zoomInLeft'} outAnimation={'zoomOutRight'} delay={50} duration={280}>
-        </AnimatedList>
+        {/*<AnimatedList style={styles.list} renderItem={this._render.bind(this)} data={this.data} keyExtractor={i => i} inAnimation={'zoomInLeft'} outAnimation={'zoomOutRight'} delay={50} duration={280}>
+    </AnimatedList>*/}
+        <FlatList style={styles.list} renderItem={this._render.bind(this)} data={this.data} keyExtractor={i => i}></FlatList>
       </ScrollView>
     );
   }
