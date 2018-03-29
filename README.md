@@ -6,6 +6,6 @@ Expo Version: [Expo Link](https://expo.io/@noim/zindexbug)
 
 Screenshot: [Google Drive Link](https://drive.google.com/file/d/1sqsjFTZwLdMe4zWzq8QV7ouV2xW84Lc2/view?usp=sharing)
 
-Importent files:
+Important files:
 - FullscreenCard.js
 - App.js
