@@ -1,24 +1,4 @@
 {
-  "expo": {
-    "name": "zindexbug",
-    "description": "An empty new project",
-    "slug": "zindexbug",
-    "privacy": "public",
-    "sdkVersion": "25.0.0",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "primaryColor": "#cccccc",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "packagerOpts": {
-      "assetExts": ["ttf", "mp4"]
-    },
-    "ios": {
-      "supportsTablet": true
-    }
-  }
+  "name": "zIndexBug",
+  "displayName": "zIndexBug"
 }
